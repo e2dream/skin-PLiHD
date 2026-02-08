@@ -1476,47 +1476,46 @@
 	<!-- SystemTools -->
 
 	<screen name="SystemToolsSc" position="fill" title="System Tools Main Menu" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<widget name="entries" position="780,105" size="1110,699" font="Regular;36" itemHeight="67" scrollbarMode="showOnDemand"/>
+		<panel name="PigTemplate" />
+		<widget name="entries" position="780,105" size="1110,899" font="Regular;36" itemHeight="67" scrollbarMode="showOnDemand" />
 	</screen>
 	<screen name="SystemToolsConfig" position="fill" title="System Tools Config Screen" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<widget name="config" position="780,105" size="1110,699" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
+		<panel name="PigTemplate" />
+		<widget name="config" position="780,105" size="1110,899" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" />
 	</screen>
 	<screen name="SystemToolsInf" position="fill" title="System Tools Info Menu" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<widget name="entries" position="780,105" size="1110,699" font="Regular;36" itemHeight="67" scrollbarMode="showOnDemand"/>
+		<panel name="PigTemplate" />
+		<widget name="entries" position="780,105" size="1110,899" font="Regular;36" itemHeight="67" scrollbarMode="showOnDemand" />
 	</screen>
 	<screen name="SystemToolsSwap" position="fill" title="System Tools Swapfile Menu" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<widget name="entries" position="780,105" size="1110,699" font="Regular;36" itemHeight="67" scrollbarMode="showOnDemand"/>
+		<panel name="PigTemplate" />
+		<widget name="entries" position="780,105" size="1110,899" font="Regular;36" itemHeight="67" scrollbarMode="showOnDemand" />
 	</screen>
 	<screen name="SystemToolsTextBox" position="fill" title="System Tools Text Box" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<widget name="text" position="780,105" size="1110,699" font="Console;28" scrollbarMode="showOnDemand"/>
+		<panel name="PigTemplate" />
+		<widget name="text" position="780,105" size="1110,899" font="Console;28" scrollbarMode="showOnDemand" />
 	</screen>
 	<screen name="SystemToolsConsole" position="fill" title="System Tools Console" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<widget name="text" position="780,105" size="1110,699" font="Console;28" scrollbarMode="showOnDemand"/>
+		<panel name="PigTemplate" />
+		<widget name="text" position="780,105" size="1110,899" font="Console;28" scrollbarMode="showOnDemand" />
 	</screen>
 
 	<!-- Videoenhancement -->
 
 	<screen name="VideoEnhancementSetup" position="fill" title="VideoEnhancementSetup" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<widget name="config" position="780,105" size="1110,525" itemHeight="38" font="Regular;28" zPosition="1" scrollbarMode="showOnDemand"/>
-		<widget source="introduction" render="Label" position="30,570" size="720,240" zPosition="1" font="Regular;30"/>
+		<panel name="PigTemplate" />
+		<widget name="config" position="780,105" size="1110,900" itemHeight="38" font="Regular;28" zPosition="1" scrollbarMode="showOnDemand" />
+		<widget source="introduction" render="Label" position="30,570" size="720,240" zPosition="1" font="Regular;30" />
 	</screen>
-
 	<screen name="VideoEnhancementPreview" position="fill" title="VideoEnhancementPreview" flags="wfNoBorder" backgroundColor="transparent">
-		<ePixmap alphatest="blend" pixmap="infobar/bl80.png" position="0,945" size="1920,135" zPosition="-1"/>
-		<ePixmap pixmap="border/smallshadowline.png" position="0,945" size="1920,3"/>
-		<widget source="key_red" render="Label" position="242,1030" size="370,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
-		<ePixmap pixmap="buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend"/>
-		<widget source="key_green" render="Label" position="242,962" size="370,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left"/>
-		<ePixmap pixmap="buttons/green.png" position="192,964" size="34,34" zPosition="1" alphatest="blend"/>
-		<widget name="config" position="780,952" size="1110,76" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" backgroundColor="black" zPosition="1"/>
-		<widget source="introduction" render="Label" position="780,1035" size="1110,34" zPosition="1" font="Regular;30" halign="center" transparent="1"/>
+		<ePixmap alphatest="blend" pixmap="infobar/bl80.png" position="0,945" size="1920,135" zPosition="-1" />
+		<ePixmap pixmap="border/smallshadowline.png" position="0,945" size="1920,3" />
+		<widget source="key_red" render="Label" position="242,1030" size="370,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left" />
+		<ePixmap pixmap="buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend" />
+		<widget source="key_green" render="Label" position="242,962" size="370,38" backgroundColor="black" zPosition="2" transparent="1" font="Regular;34" halign="left" />
+		<ePixmap pixmap="buttons/green.png" position="192,964" size="34,34" zPosition="1" alphatest="blend" />
+		<widget name="config" position="780,952" size="1110,76" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" backgroundColor="black" zPosition="1" />
+		<widget source="introduction" render="Label" position="780,1035" size="1110,34" zPosition="1" font="Regular;30" halign="center" transparent="1" />
 	</screen>
 
 	<!-- StreamingChannelFromServer -->
